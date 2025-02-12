@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    justify-content: start;
+    align-items: center;
+    background-color: rgb(148, 140, 140);
+
+}
+ul.navbar li{
+    display: inline;
+    margin: 30px;
+    height: 30px;
+    width: 15%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.parent{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-image: url(../Image/Backgound/home1-slider-3.jfif);
+}
+.child{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+}
+.navbar1{
+    height: 60px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul.navbar1 li{
+    display: inline;
+    margin: 30px;
+    height: 30px;
+    width: 15%;
+    align-items: center;
+}
+h3{
+    word-spacing: 20px;
+    
+}
+.parent3{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+   
+}
+.child3{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+}
+h2{
+    word-spacing: 10px;
+    
+}
+.parent4{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+   
+}
+.child4{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+}
+.parent5{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+   
+}
+.child5{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+}
+.parent6{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+gap: 70px;
+   
+}
+.child6{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+}
+.parent7{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+    
+   
+}
+.child7{
+    text-align: left;
+}
+.child8{
+    text-align: right;
+}
